@@ -20,6 +20,19 @@ def main() -> None:
         print()
         print("Package installation path:")
         print(site.getsitepackages()[0])
+        return
+    print()
+    print("WARNING: You're in the global environment!")
+    print("The machines can see everything you install.")
+    print()
+    print("To enter the construct, run:")
+    print("python -m venv matrix_env")
+    print("source matrix_env/bin/activate # On Unix")
+    print("matrix_env")
+    print("Scripts")
+    print("activate # On Windows")
+    print()
+    print("Then run this program again.")
 
 
 if __name__ == "__main__":
