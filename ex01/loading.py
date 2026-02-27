@@ -47,7 +47,7 @@ def main() -> None:
     print()
     print('Analyzing Matrix data...')
     print('Processing 1000 data points...')
-    points = np.random.normal(0, 1, 1000) * 10
+    points = np.random.normal(0, 1, 1000)
     points_df = pd.DataFrame(points, columns=['points'])
     print()
     print('Generating visualization...')
